@@ -34,4 +34,22 @@ html,body{
     color: #000;
 }
 
+.nav .links .mainlink{
+    color: lightskyblue;
+}
+
+.nav .links .btn-contact{
+    border-radius: 25px;
+    background-color: transparent;
+    width: 100px;
+    height: 40px;
+}
+
+.nav .logo h4{
+    font-family: 'Segoue UI';
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
  
