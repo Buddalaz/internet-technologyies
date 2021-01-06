@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Montserrat', sans-serif;
+        }
+        header {
+            height: 90px;
+            background: white;
+            box-shadow: 1px 2px 7px 4px #e3bcbc;
+            position: relative;
+        }
+
+        header > img {
+            width: 245px;
+            padding: 10px;
+        }
+        header > ul{
+            position: absolute;
+            top: 0;
+            right: 20px;
+            list-style: none;
+            font-size: 20px;
+        }
+        header > ul > li{
+            display: inline-block;
+            padding: 10px;
+            cursor: pointer;
+        }
+        main{
+            position: relative;
+        }
+        main > nav{
+            width: 300px;
+            background: blue;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+        }
+        main > nav > ul{
+            list-style: none;
+        }
+        main > nav > ul > li {
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        main > section{
+            margin-left: 305px;
+            padding: 10px;
+        }
+        main > section > section{
+            position: relative;
+            height: 300px;
+        }
+        main > section > section > div{
+            height: 100%;
+            width: calc((100%/3)*1);
+            position: absolute;
+            border: 1px solid black;
+        }
+        main > section > section > div:nth-child(1){
+            left: 0;
+            background: url("assets/img/monkey.gif");
+            background-size: cover;
+            background-position: center;
+        }
+        main > section > section > div:nth-child(2){
+            left: calc((100%/3)*1);
+            background: url("assets/img/monkey.gif");
+            background-size: cover;
+            background-position: center;
+        }
+        main > section > section > div:nth-child(3){
+            right: 0;
+            background: url("assets/img/monkey.gif");
+            background-size: cover;
+            background-position: center;
+        }
+        body > footer{
+            height: 50px;
+            background: #7c7575;
+        }
+        body > footer > h3{
+            color: white;
+            text-align: center;
+            padding: 13px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="assets/img/ijse.png" alt="IJSE logo">
+    <ul>
+        <li>Home</li>
+        <li>Services</li>
+        <li>Contact</li>
+        <li>About Us</li>
+    </ul>
+</header>
+<main>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Contact</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
+    <section>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <div></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+        possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+        possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio, eaque ex id laudantium nisi optio
+            possimus</p>
+    </section>
+</main>
+<footer>
+    <h3>Develop By IJSE</h3>
+</footer>
+</body>
+</html>
