@@ -1,112 +1,56 @@
-html,body{
-    background-color: #fff;
-    overflow-x: hidden !important;
-    margin: 0px !important;
-    padding: 0px !important;
-}
-
 * {
-    text-decoration: none !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-
-.nav {
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 80px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 25px 0 25px;
-    background-color: #fff;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.nav .links a{
-    margin-right: 25px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #000;
-}
-
-.nav .links .mainlink{
-    color: lightskyblue;
-}
-
-.nav .links .btn-contact{
-    border-radius: 25px;
-    background-color: #fff;
-    width: 100px;
-    height: 40px;
-}
-
-.nav .logo h4{
-    font-size: 25px;
-    font-weight: bold;
-    margin-left: 25px;
-}
-
-.landing{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10vw 0 10vw;
-    height: 100vh;
-}
-
-.landing h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
-    margin: 0 !important;
-}
-
-.landingText .landing-btn  {
-    width: 120px;
-    margin-top: 30px;
-    font-size: 1.2vw;
-    padding: 14px 20px 14px 20px;
-    background-color: #000;
-    color: #fff;
-    border-radius: 250px;
-}
-
-/*RESPONSIVE PART*/
-
-@media only screen and (max-width: 600px){
-
-.nav{
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
-    height: auto;
-    overflow-y: hidden;
-}
-
-.nav .logo h4{
-    font-size: 6vw;
-    margin-top: 10px;
-    margin-bottom: 14px;
-}
-
-.nav .links a{
-    margin-right: 20px;
+/*p{
     font-size: 12px;
-    font-weight: 600;
+}*/
+#landing-header {
+    font-size: 80px;
+}
+body > section {
+    height: 100vh;
+    /*background: red;*/
+    position: relative;
 }
 
-.nav .links .btn-contact{
-    margin-right: 20px;
-    border-radius: 20px;
-    background-color: transparent;
-    width: 80px;
-    height: 30px;
+body > section > img {
+    height: 500px;
+    position: absolute;
+    right: 0;
 }
 
+body > section > header {
+    height: 90px;
+    background: transparent;
+    position: relative;
+}
+
+body > section > header > h1 {
+    padding: 30px;
+    margin: 0;
+    font-size: 20px;
+}
+
+body > section > header > ul {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    list-style: none;
+    /*font-size: 20px;*/
+    margin: 0;
+    color: white;
+}
+
+body > section > header > ul > li {
+    display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+}
+
+body > section > section {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
 }
