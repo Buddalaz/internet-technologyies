@@ -64,6 +64,23 @@ body > section > section {
     margin-left: 100px;
 }
 
+#btn1 {
+    /*position: absolute;*/
+    /*right: 20px;*/
+    /*bottom: 20px;*/
+    width: 120px;
+    margin-top: 30px;
+    padding: 14px 20px 14px 20px;
+    background-color: #2f8be0;
+    border-radius: 45px;
+    text-align: center;
+}
+
+#btn1 > a {
+    font-size: 1.2vw;
+    color: #fff;
+}
+
 /*ABOUT SECTION*/
 body > main {
     /*position: relative;*/
@@ -87,7 +104,7 @@ body > main {
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     margin-top: 119px;
     margin-left: 135px;
 }
@@ -95,12 +112,12 @@ body > main {
 #abouts {
     position: relative;
     background: white;
-    border: 2px solid black;
-    height: 332px;
+    height: 350px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    box-shadow: 20px 20px 50px grey;
 }
 
 body > main > #about-section > .content-sub > #abouts > #btn {
@@ -298,14 +315,18 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     position: relative;
 }
 
-#contact-section > img{
+#contact-section > img {
     height: 100%;
     position: absolute
 }
+
 #contact-main {
     width: 900px;
     height: 500px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     position: absolute;
     top: 0;
     right: 0;
@@ -313,11 +334,11 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     left: 0;
     margin: auto;
     background: white;
-    border: 2px solid black;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    box-shadow: 20px 20px 50px grey;
 }
 
 /*FOOTER*/
@@ -329,7 +350,9 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
 
 #footer-content {
     display: flex;
-
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #footer-bottom-content {
@@ -343,31 +366,3 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     bottom: 0;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
