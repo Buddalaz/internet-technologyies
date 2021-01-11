@@ -143,15 +143,17 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     top: 20px;
     left: 90px;
     border: 1px solid black;
+    box-shadow: 20px 20px 50px grey;
 }
 
-#edu-card1-header{
+#edu-card1-header {
     height: 40px;
     position: relative;
     top: 0;
     background: blue;
 }
-#edu-card1-header > p{
+
+#edu-card1-header > p {
     margin: 0px;
     padding-top: 10px;
     padding-left: 70px;
@@ -165,15 +167,17 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     right: 100px;
     background: white;
     border: 1px solid black;
+    box-shadow: 20px 20px 50px grey;
 }
 
-#edu-card2-header{
+#edu-card2-header {
     height: 40px;
     position: relative;
     top: 0;
     background: blue;
 }
-#edu-card2-header > p{
+
+#edu-card2-header > p {
     margin: 0px;
     padding-top: 10px;
     padding-left: 70px;
@@ -187,15 +191,17 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     left: 90px;
     background: white;
     border: 1px solid black;
+    box-shadow: 20px 20px 50px grey;
 }
 
-#edu-card3-header{
+#edu-card3-header {
     height: 40px;
     position: relative;
     top: 0;
     background: blue;
 }
-#edu-card3-header > p{
+
+#edu-card3-header > p {
     margin: 0px;
     padding-top: 10px;
     padding-left: 70px;
@@ -209,19 +215,111 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     right: 100px;
     background: white;
     border: 1px solid black;
+    box-shadow: 20px 20px 50px grey;
 }
 
-#edu-card4-header{
+#edu-card4-header {
     height: 40px;
     position: relative;
     top: 0;
     background: blue;
 }
-#edu-card4-header > p{
+
+#edu-card4-header > p {
     margin: 0px;
     padding-top: 10px;
     padding-left: 70px;
 }
+
+/*SKILLS SECTION*/
+#skills_section {
+    height: 100vh;
+    position: relative;
+}
+
+#skills_section > img {
+    width: 98vw;
+    height: 98vh;
+    position: absolute;
+}
+
+#skills-main {
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: white;
+    border: 2px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 20px 20px 10px grey;
+}
+
+/*WHAT CAN I DO SECTION*/
+#what-can-i-do-section {
+    width: 100%;
+    position: relative;
+    background: red;
+}
+
+#iam-doing {
+    border: 1px solid black;
+    width: 900px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 230px;
+}
+
+/*ASSIGNMENT SECTION*/
+#assignment-section {
+    height: 100vh;
+    position: relative;
+}
+
+#assignment-section > img {
+    width: 98vw;
+    height: 98vh;
+    position: absolute;
+}
+
+/*CONTACT SECTION*/
+#contact-section {
+    height: 100vh;
+    position: relative;
+}
+
+#contact-section > img{
+    height: 100%;
+    position: absolute
+}
+#contact-main {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: white;
+    border: 2px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
 /*FOOTER*/
 #footer-section {
     height: 450px;
