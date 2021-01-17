@@ -31,16 +31,16 @@
     <section>
         <div>
             <h1 id="landing-header">WELCOME TO MY PROFILE</h1>
-            <p>IT'S <b class="blue_class">NICE</b> TO <b class="blue_class">MEET</b> YOU</p>
-            <p>IM A <b>Software Enginnier</b></p>
+            <p style="font-size: 50px; margin-top: 5px">IT'S <b class="blue_class">NICE</b> TO <b class="blue_class">MEET</b> YOU</p>
+            <p style="font-size: 50px; margin-top: 5px">IM A <b>Software Enginnier</b></p>
             <p>A Passionate Full Stack Software Developer Having An Experience Of Building
                 Java SE Applications And <br> Mobile Applications With React And Android And
                 Some Libraries And Frameworks.</p>
             <div id="btn1">
-                <a href="#">What Can I Do</a>
+                <p>What Can I Do</p>
             </div>
         </div>
-        <img src="01_Assests/img/Untitled-1.png" alt="my_photo" width="300px">
+        <img src="01_Assests/img/Untitled-1.png" alt="my_photo" width="400px">
     </section>
 </section>
 
@@ -123,7 +123,7 @@
     <!--WHAT CAN I DO SECTION-->
     <section id="what-can-i-do-section">
 <!--        <img src="01_Assests/img/backgrounds/What_can_i_do-Background.png" alt="">-->
-        <h1>The Things That I'm <b>Good</b> At</h1>
+        <p style="font-size: 50px">The Things That I'm <b class="blue_class">Good</b> At</p>
         <main id="iam-doing">
             <article>
                 <div>
@@ -175,16 +175,20 @@
     <section id="contact-section">
         <img src="01_Assests/img/backgrounds/Contact_Me_Background.png" alt="">
         <main id="contact-main">
-            <section>
+            <section class="contact_info">
                 <img src="01_Assests/img/undraw_Personal_text_re_vqj3.png" alt="contact image" height="200px">
-                <p> I'm Here To Satisfice Your Needs
+                <p> I'm Here To Satisfice Your Needs<br>
                     I Can Make Your Dream Into Realty. </p>
             </section>
-            <section>
+            <hr>
+            <section class="contact_form">
                 <h2>Let's Talk</h2>
-                <input type="text" name="" id="hello1" placeholder="Name">
-                <input type="text" name="" id="hello2" placeholder="Email">
-                <input type="text" name="" id="hello3" placeholder="Message">
+                <input type="text" class="field" placeholder="Name">
+                <input type="email" class="field" placeholder="Email">
+                <textArea class="field" placeholder="Message"></textArea>
+                <div id="btn2">
+                    <a href="#">Send</a>
+                </div>
             </section>
         </main>
     </section>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>slider animation</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <style>
+        body{
+            overflow: hidden;
+        }
+        .slider-frame{
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+        }
+        .slide-images{
+            margin: 0 0 0 -2400px;
+            position: relative;
+            animation: slider_animation 10s infinite;
+            animation-direction: alternate;
+            animation-play-state: running;
+        }
+        .image-container {
+            height: 800px;
+            width: 1200px;
+            position: relative;
+            float: left;
+        }
+        @keyframes slider_animation {
+            0%{left: 0px}
+            10%{left: 0px}
+            20%{left: 1200px}
+            30%{left: 1200px}
+            40%{left: 2400px}
+            50%{left: 2400px}
+            60%{left: 2400px}
+            70%{left: 2400px}
+            80%{left: 1200px}
+            90%{left: 1200px}
+            100%{left: 0px}
+        }
+    </style>
+</head>
+<body>
+<div class="slider-frame">
+    <div class="slide-images">
+        <div class="image-container">
+            <img src="assets/img/180206-siemens-cybersecurity-home-keyvisual-00-16to9.jpeg" alt="img01">
+        </div>
+        <div class="image-container">
+            <img src="assets/img/158404796674.jpg" alt="img02">
+        </div>
+        <div class="image-container">
+            <img src="assets/img/rog-logo-eg-1920x1080.jpg" alt="img03">
+        </div>
+        <div class="image-container">
+            <img src="assets/img/SppRzCC.png" alt="img04">
+        </div>
+    </div>
+</div>
+</body>
+</html>

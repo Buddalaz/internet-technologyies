@@ -55,20 +55,26 @@ body > section > header > ul > li {
 }
 
 body > section > section {
+    width: 1200px;
+    height: 500px;
+    /*height: 50%;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    margin-top: 100px;
-    margin-left: 100px;
+    /*margin-top: 100px;*/
+    /*margin-left: 100px;*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #btn1 {
     /*position: absolute;*/
     /*right: 20px;*/
     /*bottom: 20px;*/
-    width: 120px;
+    width: 100px;
     margin-top: 30px;
     padding: 14px 20px 14px 20px;
     background-color: #2f8be0;
@@ -76,9 +82,10 @@ body > section > section {
     text-align: center;
 }
 
-#btn1 > a {
-    font-size: 1.2vw;
+#btn1 > p {
+    font-size: 1vw;
     color: #fff;
+    margin: 0;
 }
 
 /*ABOUT SECTION*/
@@ -112,7 +119,7 @@ body > main {
 #abouts {
     position: relative;
     background: white;
-    height: 350px;
+    height: 400px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -282,7 +289,13 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
 #what-can-i-do-section {
     width: 100%;
     position: relative;
-    background: red;
+    /*background: red;*/
+}
+
+#what-can-i-do-section > p{
+    text-align: center;
+    margin: 0;
+    padding: 10px 0px 20px 0px;
 }
 
 #iam-doing {
@@ -291,10 +304,10 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     display: grid;
     justify-content: center;
     align-content: center;
-    margin: auto;
+    /*margin: auto;*/
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 230px;
+    margin-left: 290px;
 }
 
 /*ASSIGNMENT SECTION*/
@@ -340,6 +353,37 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     border-bottom-left-radius: 30px;
     box-shadow: 20px 20px 50px grey;
 }
+
+.contact_form {
+    width: 50%;
+    height: 50%;
+    border: 1px solid red;
+    position: relative;
+}
+
+.contact_form > h2{
+    margin: 0;
+}
+
+.field {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+#btn2 {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    margin-top: 30px;
+    padding: 14px 20px 14px 20px;
+    background-color: #2f8be0;
+    border-radius: 45px;
+    text-align: center;
+}
+
 
 /*FOOTER*/
 #footer-section {
