@@ -270,6 +270,10 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
 #skills-main {
     width: 900px;
     height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     position: absolute;
     top: 0;
     right: 0;
@@ -285,6 +289,42 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     box-shadow: 20px 20px 10px grey;
 }
 
+.skills {
+    width: 400px;
+}
+
+.bar{
+    display: block;
+    height: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.skills > h3{
+    display: inline;
+}
+.bar span{
+    height: 5px;
+    float: left;
+    background: #2187e7;
+}
+.android{
+    width: 70%;
+}
+.java{
+    width: 90%;
+}
+.html{
+    width: 60%;
+}
+.css{
+    width: 55%;
+}
+.javascript{
+    width: 60%;
+}
 /*WHAT CAN I DO SECTION*/
 #what-can-i-do-section {
     width: 100%;
