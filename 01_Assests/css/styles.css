@@ -74,12 +74,13 @@ body > section > section {
     /*position: absolute;*/
     /*right: 20px;*/
     /*bottom: 20px;*/
-    width: 100px;
+    width: 120px;
     margin-top: 30px;
     padding: 14px 20px 14px 20px;
     background-color: #2f8be0;
     border-radius: 45px;
     text-align: center;
+    background-image: linear-gradient(to right, #B8B0DA, #0800FF);
 }
 
 #btn1 > p {
@@ -137,6 +138,7 @@ body > main > #about-section > .content-sub > #abouts > #btn {
     background-color: #2f8be0;
     border-radius: 45px;
     text-align: center;
+    background-image: linear-gradient(to right, #B8B0DA, #0800FF);
 }
 
 body > main > #about-section > .content-sub > #abouts > #btn > a {
@@ -177,17 +179,17 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     background: blue;
 }
 
-#edu-card1-header > p {
+#edu-card1-header > h3 {
     margin: 0px;
-    padding-top: 10px;
-    padding-left: 70px;
+    padding-top: 6px;
+    text-align: center;
 }
 
 #edu-card2 {
     width: 500px;
     height: 200px;
     position: absolute;
-    top: 90px;
+    top: 152px;
     right: 100px;
     background: white;
     border: 1px solid black;
@@ -201,17 +203,17 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     background: blue;
 }
 
-#edu-card2-header > p {
+#edu-card2-header > h4 {
     margin: 0px;
     padding-top: 10px;
-    padding-left: 70px;
+    text-align: center;
 }
 
 #edu-card3 {
     width: 500px;
     height: 200px;
     position: absolute;
-    bottom: 150px;
+    bottom: 187px;
     left: 90px;
     background: white;
     border: 1px solid black;
@@ -225,10 +227,10 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     background: blue;
 }
 
-#edu-card3-header > p {
+#edu-card3-header > h3 {
     margin: 0px;
-    padding-top: 10px;
-    padding-left: 70px;
+    padding-top: 6px;
+    text-align: center;
 }
 
 #edu-card4 {
@@ -249,10 +251,64 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     background: blue;
 }
 
-#edu-card4-header > p {
+#edu-card4-header > h3 {
     margin: 0px;
-    padding-top: 10px;
-    padding-left: 70px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.verticalBar {
+    height: 480px;
+    background: black;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, #B8B0DA, #0800FF);
+}
+
+.circle2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, #B8B0DA, #0800FF);
+}
+
+.circle3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, #B8B0DA, #0800FF);
+}
+
+.circle4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, #B8B0DA, #0800FF);
 }
 
 /*SKILLS SECTION*/
@@ -305,26 +361,33 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
 .skills > h3{
     display: inline;
 }
+
 .bar span{
     height: 5px;
     float: left;
     background: #2187e7;
 }
+
 .android{
     width: 70%;
 }
+
 .java{
     width: 90%;
 }
+
 .html{
     width: 60%;
 }
+
 .css{
     width: 55%;
 }
+
 .javascript{
     width: 60%;
 }
+
 /*WHAT CAN I DO SECTION*/
 #what-can-i-do-section {
     width: 100%;
@@ -396,35 +459,49 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
 
 .contact_form {
     width: 50%;
-    height: 50%;
-    border: 1px solid red;
+    height: 85%;
     position: relative;
 }
 
 .contact_form > h2{
     margin: 0;
+    font-size: 2.5em;
 }
 
 .field {
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 20px;
+    height: 30px;
+    width: 75%;
 }
 
+.textArea{
+    width: 75%;
+    height: 37%;
+}
 #btn2 {
     position: absolute;
     right: 20px;
     bottom: 20px;
-    width: 50px;
+    width: 60px;
     margin-top: 30px;
-    padding: 14px 20px 14px 20px;
+    padding: 12px 17px 14px 17px;
     background-color: #2f8be0;
     border-radius: 45px;
     text-align: center;
+    background-image: linear-gradient(to right, #B8B0DA, #0800FF);
+    color: white;
 }
 
-
+#btn2 > p{
+    margin: 0;
+}
+.medileBar{
+    width: 2px;
+    height: 390px;
+    background: #9b8a8a;
+}
 /*FOOTER*/
 #footer-section {
     height: 450px;
