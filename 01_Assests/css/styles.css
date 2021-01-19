@@ -2,9 +2,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/*p{
-    font-size: 12px;
-}*/
+a{
+    text-decoration: none;
+}
 /*LANDING SECTION*/
 #landing-header {
     font-size: 50px;
@@ -52,6 +52,13 @@ body > section > header > ul > li {
     display: inline-block;
     padding: 30px;
     cursor: pointer;
+}
+
+body > section > header > ul > li:nth-child(5) {
+    color: black;
+    padding: 10px 20px;
+    border-radius: 60px;
+    background: white;
 }
 
 body > section > section {
@@ -145,10 +152,6 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     font-size: 1vw;
     color: #fff;
 }
-
-/*.content-sub > aside > img {
-    height: 200px;
-}*/
 
 /*EDUCATION SECTION*/
 #edu_section {
@@ -425,6 +428,50 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     position: absolute;
 }
 
+.assignments{
+    position: absolute;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+    text-align: center;
+    position: relative;
+}
+
+.card .card-img img{
+    max-width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.card-info{
+    padding: 33px 30px 30px 30px;
+    position: relative;
+}
+
+.card-bth {
+    color: white;
+    font-size: 15px;
+    padding: 10px 26px;
+    border-radius: 60px;
+    background-image: linear-gradient(to bottom left , #0077FF, #0E0E6C);
+    position: absolute;
+    bottom: -32px;
+    right: 13px;
+}
+
 /*CONTACT SECTION*/
 #contact-section {
     height: 100vh;
@@ -480,6 +527,7 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     width: 75%;
     height: 37%;
 }
+
 #btn2 {
     position: absolute;
     right: 20px;
@@ -490,30 +538,43 @@ body > main > #about-section > .content-sub > #abouts > #btn > a {
     background-color: #2f8be0;
     border-radius: 45px;
     text-align: center;
-    background-image: linear-gradient(to right, #B8B0DA, #0800FF);
+    background-image: linear-gradient(to bottom left , #0077FF, #0E0E6C);
     color: white;
 }
 
 #btn2 > p{
     margin: 0;
 }
+
 .medileBar{
     width: 2px;
     height: 390px;
     background: #9b8a8a;
 }
+
 /*FOOTER*/
 #footer-section {
     height: 450px;
-    background: blue;
     position: relative;
+    background-image: linear-gradient(to bottom left , #0077FF, #0E0E6C);
+}
+
+.footeraside1{
+    color: white;
 }
 
 #footer-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+}
+
+.footer-bottom-bar{
+    width: 91%;
+    height: 2px;
+    background: white;
+    margin-left: 51px;
 }
 
 #footer-bottom-content {
